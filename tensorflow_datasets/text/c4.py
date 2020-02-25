@@ -47,9 +47,10 @@ _CITATION = """
   eprint = {1910.10683},
 }
 """
-_VERSION = tfds.core.Version("2.2.1", "Update dataset_info.json")
+_VERSION = tfds.core.Version("2.2.2", "Deduplicate lines within a page.")
 
 _SUPPORTED_VERSIONS = [
+    tfds.core.Version("2.2.1", "Update dataset_info.json"),
     tfds.core.Version("2.2.0"),
     tfds.core.Version(
         "1.1.0", experiments={tfds.core.Experiment.S3: False},
