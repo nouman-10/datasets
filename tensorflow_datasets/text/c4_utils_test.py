@@ -284,7 +284,7 @@ This line should be okay."""
         {
             "wet-file": 1,
             "page-emitted": 2,
-            "page-filitered-nourl": 1,
+            "page-filtered-nourl": 1,
         }, dict(counters))
 
 
